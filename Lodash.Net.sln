@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodash.Net", "Lodash.Net\Lodash.Net.csproj", "{3B359292-9CE7-42FC-AC8E-231858242762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodash.net.UnitTests", "Lodash.net.UnitTests\Lodash.net.UnitTests.csproj", "{77548181-8DF6-4E05-80FA-F85935913B69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B359292-9CE7-42FC-AC8E-231858242762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B359292-9CE7-42FC-AC8E-231858242762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B359292-9CE7-42FC-AC8E-231858242762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B359292-9CE7-42FC-AC8E-231858242762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77548181-8DF6-4E05-80FA-F85935913B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77548181-8DF6-4E05-80FA-F85935913B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77548181-8DF6-4E05-80FA-F85935913B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77548181-8DF6-4E05-80FA-F85935913B69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

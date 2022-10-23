@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>Netdash</PackageId>
+    <Version>0.0.2</Version>
+    <Authors>BenBakhar</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <None Include="README.md" Pack="true" PackagePath="/"/>
+    <None Include="docs/readme.md" Pack="true" PackagePath="/"/>
+  </ItemGroup>
+
+</Project>
