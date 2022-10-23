@@ -58,7 +58,6 @@ namespace Lodash.Net.UnitTests
             string json = @"{ a:""aa"", b: {c: ""cc""}, d: ""dd""}";
             var result = _.Omit(json, keys);
 
-            Console.WriteLine("Test: {0}\n", result);
             Assert.Equal(JsonConvert.SerializeObject(new { a = "aa", b = new { c = "cc" } }), result);
         }
     }
